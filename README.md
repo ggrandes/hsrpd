@@ -8,7 +8,7 @@ Simple HSRPv0 (RFC-2281) Listener in Java. Open Source project under Apache Lice
 
 #### Usage Example (command line)
 
-    java -Dhsrpd.home=/opt/hsrpd -Dlog.out=console -Dlog.name=hsrpd -cp conf/:hsrpd-x.x.x.jar:log4j-x.x.x.jar org.javastack.hsrpd.ListenHSRPv0 <directory>
+    java -Dhsrpd.home=/opt/hsrpd -Dlog.out=console -Dlog.name=hsrpd -cp conf/:hsrpd-x.x.x.jar:reload4j-x.x.x.jar org.javastack.hsrpd.ListenHSRPv0 <directory>
 
 #### Sample conf/log4j.properties
 
